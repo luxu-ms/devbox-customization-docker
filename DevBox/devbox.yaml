@@ -1,0 +1,6 @@
+name: devbox-customization
+image: microsoftwindowsdesktop_windows-ent-cpc_win11-22h2-ent-cpc-m365@1.0.0
+hostInformation: general_i_8c32gb256ssd_v2
+supportsHibernation: false
+setupTasks:
+  - task: customize
