@@ -11,4 +11,5 @@ choco install -y vscode
 choco install -y azure-cli 
 choco install -y docker-desktop
 
-net localgroup docker-users "$Env:UserDomain\$Env:UserName" /add
+Restart-Computer
+#net localgroup docker-users "$Env:UserDomain\$Env:UserName" /add
