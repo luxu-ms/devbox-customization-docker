@@ -1,2 +1,0 @@
-wsl --install
-Restart-Computer
